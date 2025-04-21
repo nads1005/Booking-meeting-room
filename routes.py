@@ -150,3 +150,4 @@ def is_room_available(room, date, start_time, end_time):
                 if (start_time < booking["end_time"] and end_time > booking["start_time"]):
                     return False
     return True
+
